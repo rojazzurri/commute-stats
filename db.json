@@ -1,0 +1,18 @@
+{
+  "users": {
+    "5968370": {
+      "id": 5968370,
+      "firstName": "Sandro",
+      "lastName": "B 🦍"
+    }
+  },
+  "auth": {
+    "5968370": {
+      "userId": 5968370,
+      "accessToken": "26c0a643f3e5d466a997553781c2e00da21781c4",
+      "refreshToken": "cb85b3b70c0894a8bfdeb8cf156d68454d8af50e",
+      "expiresAt": 1707599140,
+      "expiresIn": 17957
+    }
+  }
+}
