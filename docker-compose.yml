@@ -6,3 +6,11 @@ services:
       - "3700:8080"
     volumes:
       - ./src:/app/src
+      - .env:/app/.env
+    environment:
+      # create a .env file in the root directory and add
+      # - NEXT_PUBLIC_STRAVA_CLIENT_ID=your_client_id
+      # - STRAVA_CLIENT_SECRET=your_client_secret
+      - NEXT_PUBLIC_STRAVA_REDIRECT_URI=http://localhost:3700/auth/strava
+      - JWT_KEY=f84a8ad8-7b3b-4b3b-8b3b-8b3b8b3b8b3b
+      - JWT_EXPIRES_IN=3600
